@@ -1,24 +1,35 @@
-# README
+# Concert Freak :guitar:
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Concert Freak is concert tracker build with using React for the frontend and Rails for the backend. This app will be using a third party API to get access to the most recent and updated concerts. API: TBA.
 
-Things you may want to cover:
+## Git Workflow
+  1. Pull master
+  2. Create a branch from master
+    	- `git checkout -b feature/descriptive-name`   
+      Please use `feature/` for any new features and `bugfix/` respectively.
+  3. When ready to do a pull request, please checkout to master, pull latest changes and rebase into your branch:
+      - `git checkout master`
+      - `git pull`
+      - `git checkout feature/your-branch`
+      - `git rebase -i origin/master` squash all commits to one short and descriptive message
+      - `git push -f`
+  4. Open PR and wait for approval
 
-* Ruby version
+## Requirements:
+  * Ruby version: `2.5.1`
+  * Rails version: `5 +`
 
-* System dependencies
 
-* Configuration
+## Helpful Commands:
 
-* Database creation
+* Create DB: `rails db:create`
 
-* Database initialization
+* Migrate DB: `rails db:migrate`
 
-* How to run the test suite
+* Start servers:
+  Rails server: `rails s`
+  Webpack: `./bin/webpack-dev-server`
 
-* Services (job queues, cache servers, search engines, etc.)
+* Bundle install: `bundle`
 
-* Deployment instructions
-
-* ...
+👩‍🎤 Made by ZG Stardust
