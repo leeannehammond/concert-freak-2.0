@@ -19,6 +19,9 @@ Concert Freak is concert tracker build with using React for the frontend and Rai
   * Ruby version: `2.5.1`
   * Rails version: `5 +`
 
+## Recommended:
+  * RVM
+  * Helpful Rails installation guide: http://railsapps.github.io/installrubyonrails-mac.html
 
 ## Helpful Commands:
 
@@ -26,10 +29,13 @@ Concert Freak is concert tracker build with using React for the frontend and Rai
 
 * Migrate DB: `rails db:migrate`
 
-* Start servers:
-  Rails server: `rails s`
-  Webpack: `./bin/webpack-dev-server`
-
 * Bundle install: `bundle`
+
+* Start servers:
+  - Rails server: `rails s`
+  - Webpack: `./bin/webpack-dev-server`
+  
+* The application will be running on: `localhost:3000/`
+
 
 👩‍🎤 Made by ZG Stardust
