@@ -31,6 +31,8 @@ Concert Freak is concert tracker build with using React for the frontend and Rai
 
 * Bundle install: `bundle`
 
+* Yarn install: `yarn`
+
 * Start servers:
   - Rails server: `rails s`
   - Webpack: `./bin/webpack-dev-server`
